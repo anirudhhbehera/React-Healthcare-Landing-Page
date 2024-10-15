@@ -1,0 +1,25 @@
+name: Deploy to Netlify
+
+on:
+  push:
+    branches:
+      - main  # Change this to the branch you want to deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Build Project
+      run: npm install && npm run build  # Adjust if your build commands are different
+
+    - name: Deploy to Netlify
+      env:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }} # Store your Netlify token as a secret
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}       # Store your Site ID as a secret
+      run: |
+        npm install -g netlify-cli
+        netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod
