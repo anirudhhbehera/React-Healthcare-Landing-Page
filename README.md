@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-# React + Vite
+# React Healthcare Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5ea66cba-4ec8-40fb-87c8-d579d92df94e/deploy-status)](https://app.netlify.com/sites/healthcare-landing-react-page/deploys)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# React-Healthcare-Landing-Page
->>>>>>> d7648381ff0b2de353b7ac1132c3b81682119db4
+This is a React healthcare landing page hosted on Netlify. You can view the live version [here](https://healthcare-landing-react-page.netlify.app/).
