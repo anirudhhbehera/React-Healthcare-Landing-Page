@@ -55,7 +55,7 @@ export default function Navbar() {
               className="text-para opacity-80 hover:text-primary-start hover:opacity-100"
               href="#"
             >
-             Others✅
+             Others💻
             </a>
           </li>
         </ul>
