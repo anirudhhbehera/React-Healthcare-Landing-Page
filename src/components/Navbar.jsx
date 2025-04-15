@@ -50,6 +50,14 @@ export default function Navbar() {
               Contact
             </a>
           </li>
+           <li>
+            <a
+              className="text-para opacity-80 hover:text-primary-start hover:opacity-100"
+              href="#"
+            >
+             Others📌
+            </a>
+          </li>
         </ul>
 
         <Button className="hidden md:flex" />
